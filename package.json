@@ -1,0 +1,40 @@
+{
+  "name": "faftch",
+  "version": "1.0.0",
+  "description": "Un cliente HTTP minimalista y seguro para Node.js. Sin vulnerabilidades ni código innecesario: solo peticiones limpias basadas en la API Fetch nativa. Desarrollado a medida por Freddy Fernandez.",
+  "keywords": [
+    "library"
+  ],
+  "homepage": "https://github.com/freddybit/faftch#readme",
+  "bugs": {
+    "url": "https://github.com/freddybit/faftch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddybit/faftch.git"
+  },
+  "license": "MIT",
+  "author": "Freddy Alejandro Fernández Tovar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "dev": "npx tsc --watch",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.config.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.62.1",
+    "@typescript-eslint/parser": "^8.62.1",
+    "eslint": "^10.6.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "jest": "^30.4.2",
+    "prettier": "^3.9.4",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3"
+  }
+}
