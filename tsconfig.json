@@ -42,5 +42,6 @@
     "skipLibCheck": true
   }
   ,
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "tests", "__tests__", "**/*.test.ts", "**/*.spec.ts", "jest.config.ts"]
 }
